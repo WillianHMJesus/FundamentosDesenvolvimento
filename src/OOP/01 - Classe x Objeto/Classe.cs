@@ -3,10 +3,10 @@
 namespace OOP
 {
     //Definição de classe
-    public class Carro
+    public class Produto
     {
-        public Guid CarroId { get; set; }
-        public string Placa { get; set; }
+        public Guid Id { get; set; }
+        public string Nome { get; set; }
     }
 
     public class Objeto
@@ -14,10 +14,10 @@ namespace OOP
         public Objeto()
         {
             //Definição de Objeto
-            var objeto = new Carro()
+            var objeto = new Produto()
             {
-                CarroId = Guid.NewGuid(),
-                Placa = "DXD-4180"
+                Id = Guid.NewGuid(),
+                Nome = "Headset beats"
             };
         }
     }

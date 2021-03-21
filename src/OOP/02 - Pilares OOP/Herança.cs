@@ -1,25 +1,41 @@
-﻿using System;
-
-namespace OOP
+﻿namespace OOP
 {
-    public class Funcionario : Pessoa
+    public class Automovel
     {
-        public DateTime DataAdmissao { get; set; }
-        public string Registro { get; set; }
+        public string Montadora { get; set; }
+        public string Modelo { get; set; }
+        public string Placa { get; set; }
+        public int Potencia { get; set; }
+
+        public void Acelerar () { }
+        public void Freiar() { }
+    }
+
+    public class Carro : Automovel
+    {
+        public int Portas { get; set; }
+        public float CapacidadePortaMala { get; set; }
+
+        public void FecharPortaMalas() { }
     }
 
     public class Processo
     {
         public void Execucao()
         {
-            var funcionario = new Funcionario()
+            var carro = new Carro()
             {
-                Nome = "Mario Jorge da Silva",
-                DataNascimento = new DateTime(1990, 09, 20),
-                DataAdmissao = DateTime.Now,
-                Registro = "10102050"
+                Montadora = "Volkwagem",
+                Modelo = "Golf",
+                Placa = "HPK-5456",
+                Potencia = 140,
+                Portas = 4,
+                CapacidadePortaMala = 380.10F
             };
-            var idade = funcionario.CalcularIdade();
+
+            carro.FecharPortaMalas();
+            carro.Acelerar();
+            carro.Freiar();
         }
     }
 }
