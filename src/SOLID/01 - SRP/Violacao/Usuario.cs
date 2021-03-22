@@ -55,7 +55,7 @@ namespace SOLID.SRP.Violacao
             mailMessage.Body = "Parabéns! Seu cadastro foi realizado com sucesso.";
             smtpClient.Send(mailMessage);
 
-            return "Usuário cadastrado com sucesso";
+            return "Usuário cadastrado com sucesso.";
         }
     }
 }
