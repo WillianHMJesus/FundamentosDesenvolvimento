@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace SOLID.SRP.Solucao
+namespace SOLID.DIP.Violacao
 {
-    public class UsuarioService
+    public class UsuarioServico
     {
         public string Adicionar(Usuario usuario)
         {

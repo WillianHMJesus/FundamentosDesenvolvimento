@@ -1,6 +1,6 @@
 ﻿using System.Net.Mail;
 
-namespace SOLID.SRP.Solucao
+namespace SOLID.DIP.Violacao
 {
     public class EmailService
     {
