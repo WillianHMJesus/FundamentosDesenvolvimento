@@ -5,8 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="03 - LSP\" />
-    <Folder Include="04 - ISP\" />
     <Folder Include="05 - DIP\" />
   </ItemGroup>
 
