@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="01 - Creational\1.2 - FactoryMethod\" />
+    <Folder Include="01 - Creational\1.4 - Prototype\" />
+    <Folder Include="01 - Creational\1.5 - Singleton\" />
     <Folder Include="02 - Structural\" />
     <Folder Include="03 - Behavioral\" />
   </ItemGroup>
